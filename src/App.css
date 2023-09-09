@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .main {
-  width: 100vw;
+  width: 120vw;
   min-height: 100vh;
   position: fixed;
   display: flex;
@@ -41,15 +41,15 @@
   max-width: 640px;
   background-image: radial-gradient(
       at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
+      hsla(220, 80%, 70%, 1) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 97% 21%, hsla(260, 80%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, hsla(280, 80%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, hsla(300, 80%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, hsla(320, 80%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, hsla(340, 80%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, hsla(360, 80%, 70%, 1) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
@@ -76,11 +76,11 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5 text-6xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.purple_gradient {
+  @apply bg-gradient-to-r from-purple-500 via-purple-800 to-indigo-500 bg-clip-text text-transparent;
 }
 
 .desc {
@@ -104,7 +104,7 @@
 }
 
 .blue_gradient {
-  @apply font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+  @apply font-black bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent;
 }
 
 .summary_box {
